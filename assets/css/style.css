@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{
+    font-family: monospace;}
+
+#header {
+    width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;}
+
+.logo h1{
+    font-size: 32px;
+    color: #FADFA1;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.2em;}
+
+.logo p{
+    font-size: 15px;
+    color: #FADFA1;
+    letter-spacing: 0.2em;
+    text-align: center;}
+
+.header-content{
+    margin-top: 13em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;}
+
+.header-content p{ 
+    font-family: monospace;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    color: #FADFA1}
+
+.mainbtn {
+    padding: 10px 24px;
+    background-color: #FADFA1;
+    color: #624E88;
+    font-family: monospace;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    border: none;
+    cursor: pointer;
+    margin-top: 2.4em;
+    transition: all 0.3s ease;}
+
+.mainbtn:hover{
+    background-color: beige;}
+
+.introtitle h1{
+    font-size: 32px;
+    color: #624E88;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 1em;}
+
+h3{
+    font-size: 25px;
+    color: #624E88;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 1em;}
+
+p {
+    font-size: 13px;
+    line-height: 20px;}
+
+img{
+    width: 250px;}
+
+.hellopic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+    margin-top: 1em;}
+
+.hello{
+    margin-left: 25em;
+    margin-right: 25em;}
+
+.hello p{
+    margin-top: 1em;
+    padding-bottom: 3em;}
+
+h1 {
+    font-size: 32px;
+    color: #FADFA1;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;}
+
+.column{
+    float:left;
+    width: 20%;
+    padding: 2px;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;}
+
+h2 {
+    font-size: 32px;
+    color: #624E88;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.7em;}
+
+.contact{
+    margin-left: 36em;
+    margin-right: 36em;}
+
+.socials{
+    font-weight:600;
+    margin-left: 50em;
+    margin-top: 10px;
+    padding-bottom: 3em;
+}
