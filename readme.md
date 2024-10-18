@@ -109,4 +109,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Ai Astraea Website | To create a personal website using HTML and CSS | trykolang.com |
+| Ai Astraea Website | To create a personal website using HTML and CSS | http://aistraeaa.github.io/WD-MidtermProject/ |
